@@ -1,17 +1,17 @@
-# twice_is_once
+// # twice_is_once
 
 
-let input = 0;
-(input += String(input += 1)) % 6;
-  // input: (number, 0)
-  input += 1;
-  // input: (number, 1)
-  String(input);
-  // (string, "1")
-  input += "1";
-  // input: (string, "11")
-  "11" % 6;
-  // (number, 5)
+// let input = 0;
+// (input += String(input += 1)) % 6;
+//   // input: (number, 0)
+//   input += 1;
+//   // input: (number, 1)
+//   String(input);
+//   // (string, "1")
+//   input += "1";
+//   // input: (string, "11")
+//   "11" % 6;
+//   // (number, 5)
   
 
 
